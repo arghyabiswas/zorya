@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Welcome To Zorya</title>
+<link rel="shortcut icon" href="images/ico/favicon.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+<link href="App_Themes/Blue/default.css" rel="stylesheet">
+<link href="css/color.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body data-ng-app="devfvApp" id="home" class="homepage">
+<div class="preloader">
+  <div class="preloader-body">
+    <p><img src="images/logo.png" alt=""></p>
+    <i class="fa fa-spinner fa-pulse animated fv-spinner"></i>
+    <p class="orange-Text text-00x">Loading...</p>
+  </div>
+</div>
+<div class="wrapper">
+  <header class="page-header index-page-header">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+      <div class="container nav-container"> <a class="navbar-brand" href="#index"><img src="images/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item "> <a class="nav-link aclick active" href="#index.html">Home</a> </li>
+            <li class="nav-item"> <a class="nav-link aclick" href="#aboutus">About Us</a> </li>
+            <!--<li class="nav-item"> <a class="nav-link" href="#project">Project</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#product">Product</a> </li>-->
+            <li class="nav-item"> <a class="nav-link aclick" href="#contactus">Contact Us</a> </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- /Heder -->
+  <div class="main-body">
+    <ui-view autoscroll="false"></ui-view>
+  </div>
+  <!-- /Main Body -->
+  <footer class="footer-container">
+    <div class="darkExBlue-Bg  p-3">
+      <div class="container  m-20">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="row">
+              <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                <div class="footer-header">
+                  <h3 class="font-w-100 white-Text">Links</h3>
+                </div>
+                <ul class="footer-menu">
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#aboutus">About Us</a></li>
+                  <li><a href="#contactus">Contact Us</a></li>
+                  <li><a href="#termsandconditions">Terms & Conditions</a></li>
+                </ul>
+                <!--<div class="social"> <a href="" class="btn btn-social-icon btn-facebook m-r"><span class="fab fa-facebook-f"></span></a> <a href="" class="btn btn-social-icon btn-twitter m-r"><span class="fab fa-twitter"></span></a> <a href="" class="btn btn-social-icon btn-linkedin m-r"><span class="fab fa-linkedin-in"></span></a> <a href="" class="btn btn-social-icon btn-google m-r"><span class="fab fa-youtube"></span></a> </div>-->
+              </div>
+              <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                <div class="footer-header">
+                  <h3 class="font-w-100 white-Text">Contact Us</h3>
+                </div>
+                <div class="footer-text ">
+                  <h6 class="m-10"><span class="font-w-100 white-Text">Zorya Systems Pvt Ltd</span></h6>
+                  <h6 class="m-10"><span class="Font-bold white-Text">Adress: </span><span class="font-w-100 white-Text">2<sup>nd</sup> Floor Flat F2 TEENKANYA, 103/1 Purba Diganta, Kolkata West Bengal - 700075</span></h6>
+                  <h6 class="m-10"><span class="Font-bold white-Text">Email: </span><span class="font-w-100 white-Text">zoryasystemspvtltd@gmail.com</span></h6>
+                  <h6 class="m-10"><span class="Font-bold white-Text">Phone: </span><span class="font-w-100 white-Text">+91 9830817543 / 9831056294 / 9477002357</span></h6>
+                </div>
+              </div>
+              <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                <div class="footer-header">
+                  <h3 class="font-w-100 white-Text">About Us</h3>
+                </div>
+                <div class="footer-text ">
+                  <h6 class="font-w-100 white-Text">Zorya provides full range of software development and consultancy services. We provide business technology solutions, cloud hosting, managed services, website design, and technical support to help our clients achieve their business and IT goals.</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container m-20">
+      <p class="m-0 text-center text-0x seaGreenExDark-Text"><strong> &copy; Copyright</strong> Zorya Systems Pvt Ltd <span id="printYear">2020</span></p>
+    </div>
+    <!-- /Footer -->
+  </footer>
+</div>
+<!-- Angular scripts -->
+<script src="js/angular.min.js"></script>
+<script src="js/angular-ui-router.js"></script>
+<script src="js/angular/app.js"></script>
+<script src="js/angular/controller.js"></script>
+<script src="js/angular/services.js"></script>
+<script src="js/angular/directive.js"></script>
+<!-- Mainly scripts -->
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/plugins/bootstrap/bootstrap.min.js"></script>
+<script src="js/ocLazyLoad.js"></script>
+<script src="js/modernizr-2.7.2.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

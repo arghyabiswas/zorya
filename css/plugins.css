@@ -1,0 +1,21 @@
+@import "plugins/slick/slick.css";
+@import "plugins/slick/slick-theme.css";
+
+/* Import Bootstrap source files*/
+@import "plugins/bootstrap/bootstrap.css";
+@import "plugins/bootstrap-social/bootstrap-social.css";
+
+@import "plugins/datetimepicker/daterangepicker.css";
+
+/* Import Plugins files*/
+@import "plugins/animation/animate.css";
+
+/* Font-Awesome*/
+@import "plugins/fontawesome-5/web-fonts-with-css/css/all.css";
+@import "plugins/font-awesome/css/font-awesome-animation.css";
+
+/* vs Icon*/
+@import "plugins/cb-icon/cb-icon.css";
+
+/*Custome Font*/
+@import "../fonts/OpenSans/OpenSans.css";
